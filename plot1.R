@@ -29,7 +29,7 @@ plot1 <- function()
      # Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels. 
      png(filename= "plot1.png", width = 480, height = 480, units = "px", bg ="white") 
      par(mar = c(6, 6, 5, 4)) 
-     hist(pcdate$Global_active_power, col ="red", main = "Global Active Power", xlab = "Global Active Power(kilowatts)") 
+     hist(pcdate$Global_active_power, col ="red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)") 
     
      dev.off() 
     } 
